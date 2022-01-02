@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #9A0680;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.form {
+    height: 40vh;
+    width: 20vw;
+    background-color: #781C68;
+    padding: 5%;
+}
+.container {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    margin: -25px 0 0 -25px;
+}
+.login {
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+}
+.loginbox {
+    text-align: center;
+    margin-bottom: 10%;
+}
+form { 
+    color: #fff;
+    padding-left: 10%;
+}
+#password {
+    background-color: #781C68;
+    border: none;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 2%;
+    width: 90%;
+}
+#email {
+    background-color: #781C68;
+    border: none;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 2%;
+    width: 90%;
+}
+label {
+    margin-bottom: 2%;
+    
+}
+#email {
+    margin-bottom: 10%;
+}
+input {
+    display: block;
+}
+input:focus {
+    outline: none;
+}
+.login-button {
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 10%;
+    background-color: #D47AE8;
+    color: #fff;
+    border: none;
+    position: relative;
+    right: -1%;
+    height: 10%;
+    width: 80%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+p {
+    color: #fff;
+    position: relative;
+    left: 11%;
+}
+
